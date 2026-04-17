@@ -17,6 +17,7 @@
         compatible = "zmk,keymap";
 
         Base {
+            display-name = "Base";
             bindings = <
 &kp GRAVE  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp MINUS
 &kp TAB    &kp Q   &kp W   &kp E   &kp R   &kp T   &kp Y   &kp U   &kp I   &kp O   &kp P   &kp BACKSPACE
@@ -28,17 +29,19 @@
         };
 
         Function {
+            display-name = "Function";
             bindings = <
 &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
 &kp ESC  &kp GRAVE  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0
 &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &kp BSPC  &kp BACKSLASH  &kp SCLN  &kp QUOT  &kp COMM  &kp DOT  &kp SLSH  &kp TAB
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                 &none  &none  &none  &none  &none
+                                 &none  &none  &studio_unlock  &none  &none
                                                &trans  &trans  &trans
             >;
         };
 
         Navigation {
+            display-name = "Navigation";
             bindings = <
 &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
 &none  &kp CAPSLOCK  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp HOME  &kp PGDN  &kp PGUP  &kp END  &none  &none
@@ -50,6 +53,7 @@
         };
 
         Media {
+            display-name = "Media";
             bindings = <
 &kp MPRV  &kp VOLD  &kp MUTE  &kp VOLU  &kp MNXT  &none  &none  &none  &none  &none  &none  &none
 &kp PAGE_UP  &kp PAGE_DOWN  &kp HOME  &kp END  &kp INSERT  &kp DELETE  &kp PAUSE  &kp SCROLL_LOCK  &kp PRINT_SCREEN  &kp CAPSLOCK  &kp NUMLOCK  &none
@@ -61,6 +65,7 @@
         };
 
         Pointer {
+            display-name = "Pointer";
             bindings = <
 &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
 &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
@@ -72,6 +77,7 @@
         };
 
         Numeral {
+            display-name = "Numeral";
             bindings = <
 &kp LBKT  &kp N7  &kp N8  &kp N9  &kp RBKT  &none  &none  &none  &none  &none  &none  &none
 &kp SCLN  &kp N4  &kp N5  &kp N6  &kp EQUAL  &none  &none  &none  &none  &none  &none  &none
@@ -83,6 +89,7 @@
         };
 
         Symbols {
+            display-name = "Symbols";
             bindings = <
 &kp LBKT  &kp N7  &kp N8  &kp N9  &kp RBKT  &none  &none  &none  &none  &none  &none  &none
 &kp SCLN  &kp N4  &kp N5  &kp N6  &kp EQUAL  &none  &none  &none  &none  &none  &none  &none
