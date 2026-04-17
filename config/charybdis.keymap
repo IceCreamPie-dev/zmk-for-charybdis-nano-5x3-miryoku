@@ -18,21 +18,12 @@
         Base {
             display-name = "Base";
             bindings = <
-<<<<<<< HEAD
 &kp GRAVE  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp MINUS
 &kp TAB    &kp Q   &kp W   &kp E   &kp R   &kp T   &kp Y   &kp U   &kp I   &kp O   &kp P   &kp BACKSPACE
 &kp LSHIFT  &mt LGUI A  &mt LALT S  &mt LCTRL D  &mt LSHIFT F  &kp G  &kp H  &mt RSHIFT J  &mt RCTRL K  &mt LALT L  &kp SEMI  &mt RGUI APOS
 &kp LCTRL  &lt 4 Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &lt 4 SLASH  &kp ESCAPE
                                  &lt 3 ESC  &lt 2 SPACE  &lt 1 TAB  &lt 6 ENTER  &lt 5 BACKSPACE
                                                &kp LALT  &kp CAPSLOCK  &kp DELETE
-=======
-&kp GRAVE         &kp N1          &kp N2          &kp N3              &kp N4            &kp N5          &kp N6       &kp N7             &kp N8               &kp N9          &kp N0       &kp MINUS
-&kp TAB           &kp Q           &kp W           &kp E               &kp R             &kp T           &kp Y        &kp U              &kp I                &kp O           &kp P        &kp BACKSPACE
-&kp LEFT_SHIFT    &mt LEFT_GUI A  &mt LEFT_ALT S  &mt LEFT_CONTROL D  &mt LEFT_SHIFT F  &kp G           &kp H        &mt RIGHT_SHIFT J  &mt RIGHT_CONTROL K  &mt LEFT_ALT L  &kp SEMI     &mt RIGHT_GUI APOS
-&kp LEFT_CONTROL  &lt 4 Z         &kp X           &kp C               &kp V             &kp B           &kp N        &kp M              &kp COMMA            &kp DOT         &lt 4 SLASH  &kp ESCAPE
-                                                  &lt 3 ESC           &lt 2 SPACE       &lt 1 TAB       &lt 6 ENTER  &lt 5 BACKSPACE
-                                                                      &kp LEFT_ALT      &kp CAPSLOCK    &kp DELETE
->>>>>>> c40ebee32471f3317d1d545f17d7a4429003d3a2
             >;
         };
 
