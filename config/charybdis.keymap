@@ -78,11 +78,11 @@
         Numeral {
             display-name = "Numeral";
             bindings = <
-&none      &none             &none            &none            &none            &none        &none  &none       &none      &none     &none     &none
-&kp LBKT   &kp LEFT_BRACKET  &kp KP_NUMBER_8  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp RBKT     &none  &none       &none      &none     &none     &none
-&kp SEMI   &kp SEMICOLON     &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_NUMBER_6  &kp EQUAL    &none  &kp RSHIFT  &kp RCTRL  &kp RALT  &kp RGUI  &none
-&kp GRAVE  &kp GRAVE         &kp KP_NUMBER_1  &kp KP_NUMBER_3  &kp KP_NUMBER_3  &kp BSLH     &none  &none       &none      &none     &none     &none
-                                              &kp DOT          &kp N0           &kp MINUS    &none  &trans
+&none      &none             &none            &none            &none            &none        &none           &none       &none      &none     &none     &none
+&kp LBKT   &kp LEFT_BRACKET  &kp KP_NUMBER_8  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp RBKT     &none           &none       &none      &none     &none     &none
+&kp SEMI   &kp SEMICOLON     &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_NUMBER_6  &kp EQUAL    &none           &kp RSHIFT  &kp RCTRL  &kp RALT  &kp RGUI  &none
+&kp GRAVE  &kp GRAVE         &kp KP_NUMBER_1  &kp KP_NUMBER_3  &kp KP_NUMBER_3  &kp BSLH     &none           &none       &none      &none     &none     &none
+                                              &kp DOT          &kp N0           &kp MINUS    &studio_unlock  &trans
                                                                &none            &none        &none
             >;
         };
