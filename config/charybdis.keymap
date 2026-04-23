@@ -70,7 +70,7 @@
 &none     &none     &none     &none      &none      &none          &none        &none        &none       &none      &none       &none
 &none     &none     &none     &none      &none      &none          &kp K_REDO   &kp K_PASTE  &kp K_COPY  &kp K_CUT  &kp K_UNDO  &none
 &kp LGUI  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &none          &none        &mkp MB1     &mkp MB3    &mkp MB2   &kp RGUI    &none
-&trans    &none     &mo 8     &mo 7      &none      &bootloader    &bootloader  &none        &mo 7       &mo 8      &none       &trans
+&trans    &none     &mo 8     &mo 7      &none      &bootloader    &bootloader  &none        &mo 7       &mo 8      &to 9       &trans
                               &mkp MB2   &mkp MB1   &mkp MB3       &mkp MB3     &mkp MB1
                                          &tog 8     &tog 7         &none
             >;
@@ -126,10 +126,10 @@
 
         GameMode {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans     &trans    &trans    &trans   &trans
-&trans  &kp Q   &kp W   &kp E   &kp R   &kp T     &kp F1     &kp F2     &kp F3    &kp F4    &kp F5   &kp F6
-&trans  &kp A   &kp S   &kp D   &kp F   &kp G     &kp F6     &mkp MB1   &mkp MB3  &mkp MB2  &kp F7   &kp F9
-&trans  &kp Z   &kp X   &kp C   &kp V   &kp B     &kp ESC    &kp F8     &kp F9    &kp F10   &kp F11  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans     &trans    &trans    &trans  &trans
+&trans  &kp Q   &kp W   &kp E   &kp R   &kp T     &kp F1     &kp F2     &kp F3    &kp F4    &kp F5  &kp F6
+&trans  &kp A   &kp S   &kp D   &kp F   &kp G     &kp F6     &mkp MB1   &mkp MB3  &mkp MB2  &kp F7  &kp F9
+&trans  &kp Z   &kp X   &kp C   &kp V   &kp B     &kp ESC    &kp F8     &kp F9    &kp F10   &to 0   &trans
                         &kp N1  &kp N2  &kp N3    &kp LCTRL  &kp LSHFT
                                 &trans  &trans    &trans
             >;
